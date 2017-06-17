@@ -37,6 +37,9 @@ You can see that the distribution of the changes of the stock prices is much mor
 
 Here is the [code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UnitedTweetVisualization.ipynb).
 
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UnitedTweets_frequency_distr.png" width="700" height="300">
+
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/unitedTweetWordCloud.png" width="700" height="300">
 
 
 
