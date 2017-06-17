@@ -8,9 +8,21 @@ Personally, I was curious to see if the mood of tweets directed at or referring 
 
 First, I gathered tweets using Tweepy and MongoDB (using RoboMongo as a GUI) ([see code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/StreamUALTweetsNoOutput.ipynb)).  I also gathered UAL stock prices from Google Finance, which is just one of [several ways](https://www.quantshare.com/sa-426-6-ways-to-download-free-intraday-and-tick-data-for-the-us-stock-market) to do so.  
 
-## OutLine:
+## Outline:
 * ### Cleaning and preparing raw data for analysis and visualization
-* ### Visualizations of the raw data using matplotlib
+[This code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/CleanUALQuotes.ipynb) formats the .txt file downloaded from Google Finance.  In particular, I wanted to fix the time-stamps, which were given in a strange format.
+* ### Visualizations of the raw data using matplotlib and pylab
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UALLineGraph.png" width="800" height="800">
+
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL%20DifferenceDistribution.png" width="800" height="800">
+
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_QuoteDistribution.png" width="800" height="800">
+
+
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_DifferenceOverTime.png" width="800" height="800">
+
+
+
 * ### Time-series analysis on the UAL quotes
 * ### Times-series analysis on the UAL quotes vs. tweet sentiment averaged over time
 
