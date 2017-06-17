@@ -12,15 +12,24 @@ First, I gathered tweets using Tweepy and MongoDB (using RoboMongo as a GUI) ([s
 * ### Cleaning and preparing raw data for analysis and visualization
 [This code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/CleanUALQuotes.ipynb) formats the .txt file downloaded from Google Finance.  In particular, I wanted to fix the time-stamps, which were given in a strange format.
 * ### Visualizations of the raw data using matplotlib and pylab
+#### I wrote the following code to visualize the NYSE United Airlines stock prices
+
+The graph below graphs the stock prices as they change over time.  The large linear portions are due to 'connecting the dots' during the process of graphing and do not correspond with actual data points.
+
 <img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UALLineGraph.png" width="700" height="300">
 
-<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL%20DifferenceDistribution.png" width="700" height="300">
 
+The next graph shows the distribution of the stock prices over the same time period. 
 <img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_QuoteDistribution.png" width="700" height="300">
 
 
+Because the stock prices were neither normally distributed nor stationary, I took the first difference, i.e. the change in between one quote and the next quote.  The next graph shows how the stock price is changing over time.
+
 <img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_DifferenceOverTime.png" width="700" height="300">
 
+You can see that the distribution of the changes of the stock prices is much more well-behaved:
+
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL%20DifferenceDistribution.png" width="700" height="300">
 
 
 * ### Time-series analysis on the UAL quotes
