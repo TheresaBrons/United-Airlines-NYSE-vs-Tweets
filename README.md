@@ -12,14 +12,14 @@ First, I gathered tweets using Tweepy and MongoDB (using RoboMongo as a GUI) ([s
 * ### Cleaning and preparing raw data for analysis and visualization
 [This code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/CleanUALQuotes.ipynb) formats the .txt file downloaded from Google Finance.  In particular, I wanted to fix the time-stamps, which were given in a strange format.
 * ### Visualizations of the raw data using matplotlib and pylab
-<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UALLineGraph.png" width="300" height="800">
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UALLineGraph.png" width="700" height="300">
 
-<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL%20DifferenceDistribution.png" width="800" height="300">
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL%20DifferenceDistribution.png" width="700" height="300">
 
-<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_QuoteDistribution.png" width="800" height="300">
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_QuoteDistribution.png" width="700" height="300">
 
 
-<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_DifferenceOverTime.png" width="800" height="300">
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UAL_DifferenceOverTime.png" width="700" height="300">
 
 
 
