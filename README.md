@@ -39,7 +39,7 @@ Here is the [code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweet
 
 <img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UnitedTweets_frequency_distr.png" width="700" height="600">
 
-Finally, here is a wordcloud made from the tweets.  They were gathered from May 22 to June 11, so some major events affecting United Airlines showed up in the tweets.  For example, it was during this time that United stopped offering flights in Venezuela.  
+Finally, here is a wordcloud made from the tweets.  They were gathered from May 22 to June 11, and you might notice some major events affecting United Airlines during that time showing up in the tweets.  For example, it was during this time that United announced it would stop offering flights to Venezuela in July, 2017.  
 
 Also evident is the fact that Twitters language filter failed to ignore Spanish tweets, despite the use of the English filter in the streaming code.  Perhaps simply having the (English) key words "united airlines" in the tweet was enough for Twitter to qualify it as English.  (Having seen many English tweets filled with abbreviations and internet slang, I would expect a more stringent language filter would throw out too many tweets!) 
 
