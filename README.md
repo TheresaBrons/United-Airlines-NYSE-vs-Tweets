@@ -8,10 +8,10 @@ Personally, I was curious to see if the mood of tweets directed at or referring 
 
 First, I gathered tweets using Tweepy and MongoDB (using RoboMongo as a GUI) ([see code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/StreamUALTweetsNoOutput.ipynb)).  I also gathered UAL stock prices from Google Finance, which is just one of [several ways](https://www.quantshare.com/sa-426-6-ways-to-download-free-intraday-and-tick-data-for-the-us-stock-market) to do so.  
 
-##OutLine:
-* ###Cleaning and preparing raw data for analysis and visualization
-* ###Visualizations of the raw data using matplotlib
-* ###Time-series analysis on the UAL quotes
-* ###Times-series analysis on the UAL quotes vs. tweet sentiment averaged over time
+## OutLine:
+* ### Cleaning and preparing raw data for analysis and visualization
+* ### Visualizations of the raw data using matplotlib
+* ### Time-series analysis on the UAL quotes
+* ### Times-series analysis on the UAL quotes vs. tweet sentiment averaged over time
 
  
