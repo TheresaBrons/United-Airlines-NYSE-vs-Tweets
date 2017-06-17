@@ -14,7 +14,7 @@ First, I gathered tweets using Tweepy and MongoDB (using RoboMongo as a GUI) ([s
 * ### Visualizations of the raw data using matplotlib and pylab
 #### I wrote the following code to visualize the NYSE United Airlines stock prices
 
-The graph below graphs the stock prices as they change over time.  The large linear portions are due to 'connecting the dots' during the process of graphing and do not correspond with actual data points.
+The graph below graphs the stock prices as they change over time.  The large linear portions are due to 'connecting the dots' during the process of graphing and do not correspond with actual data points.  The vertical red lines indicate market openings.
 
 <img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UALLineGraph.png" width="700" height="300">
 
