@@ -45,6 +45,9 @@ Also evident is the fact that Twitters language filter failed to ignore Spanish 
 
 <img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/unitedTweetWordCloud.png" width="700" height="500">
 
+Finally, I trained Multinomial Naive Bayes on a corpus of tweets labeled positive or negative, just as I had done before.  Then I analyzed the sentiment of the tweets about United Airlines that I had gathered and used TextBlob to gauge the polarity of the tweets.  My [code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UnitedTweetsSentimentAnalysis.ipynb) includes some interesting visualizations, but the most interesting for my current purposes is the change over time ([coded here](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UnitedTweetSentimentOverTime.ipynb): 
+<img src="https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/UnitedTweetSentimentOverTime.png" width="700" height="500">
+
 
 
 * ### Time-series analysis on the UAL quotes
