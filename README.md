@@ -10,7 +10,7 @@ I gathered about 3 weeks worth of tweets about United Airlines using Twitter's S
 
 First, I gathered tweets using Tweepy and MongoDB (using RoboMongo as a GUI) ([see code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/StreamUALTweetsNoOutput.ipynb)).  I also gathered UAL stock prices from Google Finance, which is just one of [several ways](https://www.quantshare.com/sa-426-6-ways-to-download-free-intraday-and-tick-data-for-the-us-stock-market) to do so.  
 
-## Outline:
+## Project Description:
 * ### Cleaning and preparing raw data for analysis and visualization
 [This code](https://github.com/TheresaBrons/United-Airlines-NYSE-vs-Tweets/blob/master/CleanUALQuotes.ipynb) formats the .txt file downloaded from Google Finance.  In particular, I wanted to fix the time-stamps, which were given in a strange format.
 * ### Visualizations of the raw data using matplotlib and pylab
