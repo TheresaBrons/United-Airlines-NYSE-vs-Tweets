@@ -69,4 +69,6 @@ Actually, the KPSS test determined that a unit root in my tweet sentiment time s
 
 * ### Times-series analysis on the UAL quotes vs. tweet sentiment averaged over time
 
+The issue I'm currently dealing with here is that my time series aren't immediately comparable.  Most notably, the time series containing the stock price quotes only has entries 6.5 hours each day!  There are several ways of dealing with this issue, and I am in the process of exploring which way is most appropriate.
+
  
